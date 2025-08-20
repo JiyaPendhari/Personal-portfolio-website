@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>👋 Hello, I'm <span class="highlight">[JIYA PENDHARI]</span></h1>
+    <p>Creative Web Developer passionate about building modern, beautiful, and functional websites.</p>
+
+    <button onclick="toggleSection('aboutSection')">About Me</button>
+    <button onclick="toggleSection('skillsSection')">Skills</button>
+    <button onclick="toggleSection('experienceSection')">Experience</button>
+    <button onclick="toggleSection('projectsSection')">Projects</button>
+    <button onclick="toggleSection('contactSection')">Contact</button>
+
+    <div id="aboutSection" class="hidden section">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate web developer with clean UI/UX design.
+      </p>
+    </div>
+
+    <div id="skillsSection" class="hidden section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5, CSS3, JavaScript .</li>
+        <li>python,c++,c .</li>
+        <li>java ,</li>
+        <li>Git, GitHub, VS Code .</li>
+      </ul>
+    </div>
+
+    <div id="experienceSection" class="hidden section">
+      <h2>Experience</h2>
+      <p><strong>Web Developer Internship </strong></p>
+      <p>May 2025 - Aug 2025</p>
+      <ul>
+        <li>Developed and maintained landing pages for clients.</li>
+        <li>Creat interactive websites.</li>
+      </ul>
+    </div>
+
+    <div id="projectsSection" class="hidden section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Portfolio Website:</strong> Personal website to showcase my skills and projects.</li>
+        <li><strong>Library management application using c++: </strong> For proper management of books and tracking records .</li>
+        <li><strong>Weather App:</strong> JavaScript app using OpenWeatherMap API.</li>
+      </ul>
+    </div>
+
+    <div id="contactSection" class="hidden section">
+      <h2>Contact</h2>
+      <p>Email: <a href="jiyapendhari3@gmail.com">jiyapendhari3@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/jiyapendhari" target="_blank">linkedin.com/in/jiyapendhari</a></p>
+      <p>GitHub: <a href="https://github.com/jiyapendhari" target="_blank">github.com/jiyapendhari</a></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
